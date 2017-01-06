@@ -3,7 +3,7 @@
 # Turbonomic script to build from source on CentOS
 #
 # Authors: 	Stephen Wilson 
-#			Eric Wright (@DiscoPosse)
+#           Eric Wright (@DiscoPosse)
 #
 #
 
