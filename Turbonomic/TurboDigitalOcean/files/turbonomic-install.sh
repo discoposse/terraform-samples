@@ -24,19 +24,14 @@ setsebool -P httpd_can_network_connect=1
 yum install unzip wget vim -y
 
 # Get build
-#wget http://download.vmturbo.com/appliance/download/updates/5.6.4.3/update64_redhat-48507-5.6.4.3.zip -O /tmp/update64_redhat-48507-5.6.4.3.zip
-#wget ftp://195.220.108.108/linux/opensuse/distribution/12.1/repo/oss/suse/x86_64/fillup-1.42-261.1.2.x86_64.rpm -O /tmp/fillup-1.42-261.1.2.x86_64.rpm
 
-# EXPERIMENTAL
 wget $TURBO_URL -O $TURBO_FILE
 wget $FILLUP_URL -O $FILLUP_FILE
 
 # Install fillup
-#rpm -Uvh /tmp/fillup-1.42-261.1.2.x86_64.rpm
 rpm -Uvh $FILLUP_FILE
 
 # Unzip file
-#unzip /tmp/update64_redhat-48507-5.6.4.3.zip -d /tmp/
 unzip $TURBO_FILE -d /tmp/
 
 # Copy Repo File
