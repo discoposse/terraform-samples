@@ -1,0 +1,1 @@
+These are samples which feature automated deployments of [Turbonomic](https://www.turbonomic.com)

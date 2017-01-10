@@ -1,0 +1,1 @@
+These are samples which feature automated deployments using VMware technologies.
