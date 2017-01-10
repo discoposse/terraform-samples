@@ -6,9 +6,7 @@ These are some sample Terraform builds that you may find helpful.  These are all
 
 Thank you, and I hope you find this helpful!  
 Eric Wright 
-
 [DiscoPosse.com](https://www.twitter.com/DiscoPosse)
-
 [Twitter](http://www.DiscoPosse.com)
 
 ### What you'll find here
