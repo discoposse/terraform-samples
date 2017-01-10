@@ -5,9 +5,9 @@ I'm a fan of Hashicorp products in general [as I wrote about here] (http://disco
 These are some sample Terraform builds that you may find helpful.  These are all presented as-is and some include the need to incur public cloud consumption charges, so please make sure that you fully understand if you are just getting started with using Terraform on AWS and DigitalOcean.
 
 Thank you, and I hope you find this helpful!  
-Eric Wright
-https://www.twitter.com/DiscoPosse
-http://www.DiscoPosse.com
+Eric Wright 
+[DiscoPosse.com](https://www.twitter.com/DiscoPosse)
+[DiscoPosse on Twitter](http://www.DiscoPosse.com)
 
 ### What you'll find here
 
