@@ -11,13 +11,13 @@ http://www.DiscoPosse.com
 
 These samples currently cover a few items and have some todo items as well.  Here is the coverage today and in the future as a progress checklist:
 
-- [x] DigitalOcean - Basic
-- [x] DigitalOcean - Basic with cloud-init
-- [ ] DigitalOcean - Basic with with SSH keys
+- [x] DigitalOcean - Simple
+- [x] DigitalOcean - Simple with cloud-init
+- [ ] DigitalOcean - Simple with with SSH keys
 - [ ] AWS - LightSail
-- [ ] AWS - EC2 Basic
+- [ ] AWS - EC2 Simple
  
-** Blogs that Discuss these example files
+### Blogs that Discuss these example files
 
 Content | URL
 ------------ | -------------
