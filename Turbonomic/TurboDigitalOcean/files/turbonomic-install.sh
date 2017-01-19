@@ -86,4 +86,4 @@ service tomcat restart
 service httpd restart
 
 # Completion
-echo "All Done - Welcome to your new Turbonomic Autonomic Platoform instance"
+echo "All Done - Welcome to your new Turbonomic Autonomic Platform instance"
