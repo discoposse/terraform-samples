@@ -17,6 +17,10 @@ These samples currently cover a few items and have some todo items as well.  Her
 - [ ] DigitalOcean - Simple with with SSH keys
 - [ ] AWS - LightSail
 - [ ] AWS - EC2 Simple
+- [x] VMware vSphere - Simple
+- [x] VMware vSphere - Simple with static IP
+- [x] VMware vSphere - Simple multi-machine
+- [x] VMware vSphere - Simple with remote exec example for post-deploy script run
  
 ### Blogs that Discuss these example files
 
