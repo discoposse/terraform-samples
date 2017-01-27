@@ -27,7 +27,7 @@ These samples currently cover a few items and have some todo items as well.  Her
 Content | URL
 ------------ | -------------
 Simple DigitalOcean Example | https://turbonomic.com/blog/on-technology/getting-started-with-terraform-for-digital-ocean/
-Building Turbonomic Instance on DigitalOcean | COMING SOON
+Building Turbonomic Instance on DigitalOcean | http://discoposse.com/2017/01/10/deploying-a-turbonomic-instance-on-digitalocean-using-terraform/
 
 For any requests or comments, please feel free to submit as a pull request.
 
