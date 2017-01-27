@@ -1,0 +1,24 @@
+resource "vsphere_virtual_machine" "photonOS09" {
+  name   = "photonOS09"
+  vcpu   = 1
+  memory = 2048
+  datacenter = "DiscoMacbook"
+  cluster = "CLUS-01"
+
+  network_interface {
+  	label = "VM Network"
+  	ipv4_address = "172.16.223.169"
+  	ipv4_prefix_length = "24"
+  	ipv4_gateway = "172.16.223.2"
+  }
+
+  disk {
+  	template = "TMPL_photonOS"
+  	type = "thin"
+    datastore = "datastore2"
+  }
+}
+
+output "address_photonOS09" {
+  value = "${vsphere_virtual_machine.photonOS09.network_interface.0.ipv4_address}"
+}

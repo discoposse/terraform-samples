@@ -12,11 +12,10 @@ resource "vsphere_virtual_machine" "photonOS01" {
   disk {
   	template = "TMPL_photonOS"
   	type = "thin"
+    datastore = "datastore2"
   }
 }
 
-  disk {
-  	template = "TMPL_photonOS"
-  	type = "thin"
-  }
+output "address_photonOS01" {
+  value = "${vsphere_virtual_machine.photonOS01.network_interface.0.ipv4_address}"
 }
