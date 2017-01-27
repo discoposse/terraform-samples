@@ -29,7 +29,9 @@ Content | URL
 Simple DigitalOcean Example | https://turbonomic.com/blog/on-technology/getting-started-with-terraform-for-digital-ocean/
 Building Turbonomic Instance on DigitalOcean | http://discoposse.com/2017/01/10/deploying-a-turbonomic-instance-on-digitalocean-using-terraform/
 
-For any requests or comments, please feel free to submit as a pull request.
+For any requests or comments, please feel free to submit as an issue.
+
+Pull requests with additional examples by the community are always welcome!
 
 > The computer can't tell you the emotional story. It can give you the exact mathematical design, but what's missing is the eyebrows. 
 > - Frank Zappa
