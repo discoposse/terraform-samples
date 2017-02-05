@@ -6,6 +6,9 @@
 # Authors:  Eric Wright (@DiscoPosse)
 #           
 
+# Set environment up
+export DEBIAN_FRONTEND=noninteractive
+
 # Update the Ubuntu system
 apt update -y
 
@@ -13,28 +16,36 @@ apt update -y
 apt install -y git vim 
 
 # Add the Stack user
-adduser Stack
+#adduser Stack
+
+# Add Stack to the sudoers file
+#echo "stack ALL=(ALL) NOPASSWD: ALL" | tee --append /etc/sudoers > /dev/null
+
+# change to the Stack user
+#su stack 
+
+# Clone the repo into the home folder of the Stack users
+git clone https://git.openstack.org/openstack-dev/devstack /tmp/devstack 
+
+# Create the stack user
+bash /tmp/devstack/tools/create-stack-user.sh
 
 # Add Stack to the sudoers file
 echo "stack ALL=(ALL) NOPASSWD: ALL" | tee --append /etc/sudoers > /dev/null
 
-# change to the Stack user
-su stack 
-
-# Clone the repo into the home folder of the Stack users
-git clone https://git.openstack.org/openstack-dev/devstack /home/stack/devstack 
+# Set the ownership so that Stack can write to the tmp folder
+chown -R stack: /tmp/devstack
 
 # Create the local configuration file for passwords of the admin users, rabbit, and database
 # NOTE:  You should change these if you wish
-echo '
-[[local|localrc]]
+echo '[[local|localrc]]
 ADMIN_PASSWORD=secret-do
 DATABASE_PASSWORD=openstack-do
 RABBIT_PASSWORD=openstack-do
-SERVICE_PASSWORD=openstack-do' | tee /home/stack/devstack/local.conf 
+SERVICE_PASSWORD=openstack-do' | tee /tmp/devstack/local.conf 
 
 # Start the installation
-./home/stack/devstack/stack.sh 
+sudo -u stack -H sh -c "bash /tmp/devstack/stack.sh" 
 
 # Completion
 echo "All Done - Welcome to your new DevStack instance"
