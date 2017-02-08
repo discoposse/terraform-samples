@@ -28,7 +28,7 @@ Content | URL
 ------------ | -------------
 Simple DigitalOcean Example | https://turbonomic.com/blog/on-technology/getting-started-with-terraform-for-digital-ocean/
 Building Turbonomic Instance on DigitalOcean | http://discoposse.com/2017/01/10/deploying-a-turbonomic-instance-on-digitalocean-using-terraform/
-Using SSH Keys with Terraform on DigialOcean | Coming soon!
+Using SSH Keys with Terraform on DigialOcean | http://discoposse.com/2017/02/08/adding-ssh-access-for-digitalocean-when-using-terraform/
 Building OpenStack DevStack on DigitalOcean | Coming soon!
 
 For any requests or comments, please feel free to submit as an issue.

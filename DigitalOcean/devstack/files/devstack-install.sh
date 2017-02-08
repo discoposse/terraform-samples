@@ -39,10 +39,10 @@ chown -R stack: /tmp/devstack
 # Create the local configuration file for passwords of the admin users, rabbit, and database
 # NOTE:  You should change these if you wish
 echo '[[local|localrc]]
-ADMIN_PASSWORD=secret-do
-DATABASE_PASSWORD=openstack-do
-RABBIT_PASSWORD=openstack-do
-SERVICE_PASSWORD=openstack-do' | tee /tmp/devstack/local.conf 
+ADMIN_PASSWORD=secret
+DATABASE_PASSWORD=openstack
+RABBIT_PASSWORD=openstack
+SERVICE_PASSWORD=openstack' | tee /tmp/devstack/local.conf 
 
 # Start the installation
 sudo -u stack -H sh -c "bash /tmp/devstack/stack.sh" 
