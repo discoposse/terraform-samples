@@ -15,6 +15,6 @@ resource "digitalocean_droplet" "devstack-do" {
   	}
 }
 
-output "address_rancher" {
+output "address_devstack-do" {
   value = "${digitalocean_droplet.devstack-do.ipv4_address}"
 }
