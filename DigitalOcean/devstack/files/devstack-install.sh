@@ -8,6 +8,7 @@
 
 # Set environment up
 export DEBIAN_FRONTEND=noninteractive
+export devstackhorizon=FALSE
 
 # Update the Ubuntu system
 apt update -y
@@ -47,5 +48,13 @@ SERVICE_PASSWORD=openstack-do' | tee /tmp/devstack/local.conf
 # Start the installation
 sudo -u stack -H sh -c "bash /tmp/devstack/stack.sh" 
 
-# Completion
-echo "All Done - Welcome to your new DevStack instance"
+# Completion check
+#until $devstackhorizon=TRUE
+#do
+#if grep "Horizon is now available" /var/log/cloud-init-output.log; then
+#        grep "Horizon is now available" /var/log/cloud-init-output.log > /tmp/horizon.txt
+#        export devstackhorizon=TRUE
+#else
+        #do mothing
+#fi
+#done
