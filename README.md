@@ -14,9 +14,11 @@ These samples currently cover a few items and have some todo items as well.  Her
 
 - [x] DigitalOcean - Simple
 - [x] DigitalOcean - Simple with cloud-init
-- [ ] DigitalOcean - Simple with with SSH keys
+- [x] DigitalOcean - Simple with with SSH keys
+- [x] DigitalOcean - OpenStack DevStack All-in-One
 - [ ] AWS - LightSail
-- [ ] AWS - EC2 Simple
+- [x] AWS - EC2 Simple (AmazonLinuxSmall)
+- [ ] AWS - EC2 Multi-Machine Public Network
 - [x] VMware vSphere - Simple
 - [x] VMware vSphere - Simple with static IP
 - [x] VMware vSphere - Simple multi-machine
@@ -29,7 +31,7 @@ Content | URL
 Simple DigitalOcean Example | https://turbonomic.com/blog/on-technology/getting-started-with-terraform-for-digital-ocean/
 Building Turbonomic Instance on DigitalOcean | http://discoposse.com/2017/01/10/deploying-a-turbonomic-instance-on-digitalocean-using-terraform/
 Using SSH Keys with Terraform on DigialOcean | http://discoposse.com/2017/02/08/adding-ssh-access-for-digitalocean-when-using-terraform/
-Building OpenStack DevStack on DigitalOcean | Coming soon!
+Building OpenStack DevStack on DigitalOcean | http://discoposse.com/2017/02/14/using-terraform-to-install-devstack-on-digitalocean/
 
 For any requests or comments, please feel free to submit as an issue.
 
