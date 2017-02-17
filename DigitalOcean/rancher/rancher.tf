@@ -18,3 +18,7 @@ resource "digitalocean_droplet" "rancher" {
 output "address_rancher" {
   value = "${digitalocean_droplet.rancher.ipv4_address}"
 }
+
+output "rancher-url" {
+  value = "http://${digitalocean_droplet.rancher.ipv4_address}:8080"
+}
