@@ -17,7 +17,7 @@ gpgkey=https://yum.dockerproject.org/gpg
 EOF
 
 yum update -y
-yum install docker-engine
+yum install -y docker-engine
 systemctl enable docker.service
 systemctl start docker
 docker run -d --name myrancher --restart=always -p 8080:8080 rancher/server
