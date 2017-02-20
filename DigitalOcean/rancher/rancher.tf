@@ -2,7 +2,7 @@ resource "digitalocean_droplet" "rancher" {
     image = "centos-7-x64"
     name = "rancher"
     region = "nyc2"
-    size = "4gb"
+    size = "8gb"
     ssh_keys = [
       "${var.digitalocean_ssh_fingerprint}"
     ]
