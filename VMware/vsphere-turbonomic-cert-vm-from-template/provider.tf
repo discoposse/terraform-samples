@@ -4,8 +4,9 @@ variable "vsphere_server" {}
 variable "vsphere_cluster" {}
 variable "vsphere_datacenter" {}
 variable "vsphere_resource_pool" {}
-variable "cert_template" {}
 variable "vsphere_datastore" {}
+variable "vsphere_folder" {}
+variable "cert_template" {}
 
 # Configure the VMware vSphere Provider
 provider "vsphere" {
