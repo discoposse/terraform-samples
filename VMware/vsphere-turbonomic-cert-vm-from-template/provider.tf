@@ -7,6 +7,9 @@ variable "vsphere_resource_pool" {}
 variable "vsphere_datastore" {}
 variable "vsphere_folder" {}
 variable "cert_template" {}
+variable "cert_template_network" {}
+variable "turbo_ssh_user" {}
+variable "turbo_ssh_pass" {}
 
 # Configure the VMware vSphere Provider
 provider "vsphere" {
