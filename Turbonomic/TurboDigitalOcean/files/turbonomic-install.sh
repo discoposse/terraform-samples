@@ -4,12 +4,15 @@
 #
 # Authors:  Stephen Wilson 
 #           Eric Wright (@DiscoPosse)
-#
+# 
+# Updated 5/13/2017 - @DiscoPosse
+# Deploys version 5.8.2 
 #
 
 # Configure enviroment parameters and Turbonomic file versions
 export DEBIAN_FRONTEND=noninteractive
-export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.6.4.3/update64_redhat-48507-5.6.4.3.zip
+# export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.6.4.3/update64_redhat-48507-5.6.4.3.zip
+export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.8.2/update64_redhat-52195-5.8.2.zip
 export FILLUP_URL=ftp://195.220.108.108/linux/opensuse/distribution/12.1/repo/oss/suse/x86_64/fillup-1.42-261.1.2.x86_64.rpm
 export FILLUP_FILE=/tmp/fillup.rpm
 export TURBO_FILE=/tmp/turbo.zip
