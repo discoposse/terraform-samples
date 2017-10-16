@@ -4,7 +4,7 @@ This is the Terraform script that will deploy a Digital Rebar admin node in a Pa
 
 Blog pending on how it's all put together.
 
-IMPORTANT NOTE:  The node deploys with the default password. Please follow the instructions to login and change password according to the Digital Rebar defauld configuration here: http://digital-rebar.readthedocs.io/en/latest/deployment/install/quick.html
+IMPORTANT NOTE:  The node deploys with the default password. Please follow the instructions to login and change password according to the Digital Rebar default configuration here: http://digital-rebar.readthedocs.io/en/latest/deployment/install/quick.html
 
 ### What you'll find here
 
