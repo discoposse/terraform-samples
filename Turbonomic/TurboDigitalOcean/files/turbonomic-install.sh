@@ -11,7 +11,8 @@
 
 # Configure enviroment parameters and Turbonomic file versions
 export DEBIAN_FRONTEND=noninteractive
-export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.0.1/update64_redhat-59377-6.0.1.zip
+export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.2.7/update64_centos-20181229133243000-6.2.7.zip
+#export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.0.1/update64_redhat-59377-6.0.1.zip
 #export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.9.0/update64_redhat-53484-5.9.0.zip
 # export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.8.2/update64_redhat-52195-5.8.2.zip
 # export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.9.0/update64_redhat-53371-5.9.0.zip
