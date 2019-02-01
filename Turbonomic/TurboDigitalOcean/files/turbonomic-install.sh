@@ -11,9 +11,10 @@
 
 # Configure enviroment parameters and Turbonomic file versions
 export DEBIAN_FRONTEND=noninteractive
-export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.2.7/update64_centos-20181229133243000-6.2.7.zip
-#export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.0.1/update64_redhat-59377-6.0.1.zip
-#export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.9.0/update64_redhat-53484-5.9.0.zip
+export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.2.8/update64_centos-20190115165634000-6.2.8.zip
+# export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.2.7/update64_centos-20181229133243000-6.2.7.zip
+# export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/6.0.1/update64_redhat-59377-6.0.1.zip
+# export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.9.0/update64_redhat-53484-5.9.0.zip
 # export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.8.2/update64_redhat-52195-5.8.2.zip
 # export TURBO_URL=http://download.vmturbo.com/appliance/download/updates/5.9.0/update64_redhat-53371-5.9.0.zip
 export FILLUP_URL=ftp://195.220.108.108/linux/opensuse/distribution/12.1/repo/oss/suse/x86_64/fillup-1.42-261.1.2.x86_64.rpm
