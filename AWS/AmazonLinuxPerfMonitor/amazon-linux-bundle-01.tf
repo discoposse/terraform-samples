@@ -1,6 +1,6 @@
 resource "aws_instance" "web1" {
-    ami = "ami-c55673a0"
-    instance_type = "t2.small"
+    ami = "ami-a954d1cd"
+    instance_type = "t2.medium"
 
     tags {
         Name = "web1"
@@ -9,8 +9,8 @@ resource "aws_instance" "web1" {
 }
 
 resource "aws_instance" "web2" {
-    ami = "ami-c55673a0"
-    instance_type = "t2.small"
+    ami = "ami-a954d1cd"
+    instance_type = "t2.medium"
 
     tags {
         Name = "web2"
@@ -19,8 +19,8 @@ resource "aws_instance" "web2" {
 }
 
 resource "aws_instance" "web3" {
-    ami = "ami-c55673a0"
-    instance_type = "t2.small"
+    ami = "ami-a954d1cd"
+    instance_type = "t2.xlarge"
 
     tags {
         Name = "web3"

@@ -18,3 +18,7 @@ resource "digitalocean_droplet" "devstack-do" {
 output "address_devstack-do" {
   value = "${digitalocean_droplet.devstack-do.ipv4_address}"
 }
+
+output "dashboard-do" {
+  value = "http://${digitalocean_droplet.devstack-do.ipv4_address}/dashboard"
+}

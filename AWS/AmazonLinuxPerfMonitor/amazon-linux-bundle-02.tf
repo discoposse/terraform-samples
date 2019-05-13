@@ -1,5 +1,5 @@
 resource "aws_instance" "web4" {
-    ami = "ami-c55673a0"
+    ami = "ami-a954d1cd"
     instance_type = "t2.small"
 
     tags {
@@ -9,7 +9,7 @@ resource "aws_instance" "web4" {
 }
 
 resource "aws_instance" "web5" {
-    ami = "ami-c55673a0"
+    ami = "ami-a954d1cd"
     instance_type = "t2.small"
 
     tags {
@@ -19,8 +19,8 @@ resource "aws_instance" "web5" {
 }
 
 resource "aws_instance" "web6" {
-    ami = "ami-c55673a0"
-    instance_type = "t2.small"
+    ami = "ami-a954d1cd"
+    instance_type = "t2.medium"
 
     tags {
         Name = "web6"

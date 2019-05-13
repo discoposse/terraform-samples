@@ -1,6 +1,6 @@
 resource "aws_instance" "db1" {
-    ami = "ami-c55673a0"
-    instance_type = "t2.large"
+    ami = "ami-a954d1cd"
+    instance_type = "t2.medium"
 
     tags {
         Name = "db1"
@@ -9,7 +9,7 @@ resource "aws_instance" "db1" {
 }
 
 resource "aws_instance" "db2" {
-    ami = "ami-c55673a0"
+    ami = "ami-a954d1cd"
     instance_type = "t2.large"
 
     tags {
@@ -19,8 +19,8 @@ resource "aws_instance" "db2" {
 }
 
 resource "aws_instance" "db3" {
-    ami = "ami-c55673a0"
-    instance_type = "t2.large"
+    ami = "ami-a954d1cd"
+    instance_type = "t2.small"
 
     tags {
         Name = "db3"

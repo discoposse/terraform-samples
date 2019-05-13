@@ -16,6 +16,7 @@ These samples currently cover a few items and have some todo items as well.  Her
 - [x] DigitalOcean - Simple with cloud-init
 - [x] DigitalOcean - Simple with with SSH keys
 - [x] DigitalOcean - OpenStack DevStack All-in-One
+- [x] Packet - DigitalRebar
 - [ ] AWS - LightSail
 - [x] AWS - EC2 Simple (AmazonLinuxSmall)
 - [ ] AWS - EC2 Multi-Machine Public Network
