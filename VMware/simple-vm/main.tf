@@ -1,7 +1,10 @@
+
 resource "vsphere_virtual_machine" "vm" {
-name             = "terraform-test"
+count			       = 1
+name             = "terraform-test${count.index}"
 resource_pool_id = "${data.vsphere_resource_pool.pool.id}"
 datastore_id     = "${data.vsphere_datastore.datastore.id}"
+wait_for_guest_net_timeout = "${var.wait_for_guest_net_timeout}"
 
 num_cpus = 2
 memory   = 1024
@@ -16,3 +19,4 @@ disk {
   size  = 20
   }
 }
+
