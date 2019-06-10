@@ -1,7 +1,7 @@
 
 resource "vsphere_virtual_machine" "vm" {
-count			 = 4
-name             = "terraform-test${count.index}"
+count			 = 1
+name             = "terraform-snap${count.index}"
 resource_pool_id = "${data.vsphere_resource_pool.pool.id}"
 datastore_id     = "${data.vsphere_datastore.datastore.id}"
 wait_for_guest_net_timeout = "${var.wait_for_guest_net_timeout}"
