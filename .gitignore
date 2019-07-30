@@ -5,3 +5,4 @@
 *.scratch
 **/.terraform
 **/.terraform/**
+**/exports.sh
