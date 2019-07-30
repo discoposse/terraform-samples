@@ -16,5 +16,3 @@ data "vsphere_network" "network" {
 	name          	= "DPG-AppNet"
 	datacenter_id 	= "${data.vsphere_datacenter.dc.id}"
 }
-
-

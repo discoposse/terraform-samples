@@ -35,4 +35,3 @@ variable "photon_password" {
 	description = "Password for the PhotonOS accounmt"
 }
 
-

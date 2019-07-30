@@ -22,17 +22,9 @@ variable "vsphere_datastore" {
 	type = "string"
 	description = "Datastore to put the virtual machine disks onto"
 }
-variable "wait_for_guest_net_timeout" {
-	type = "string"
-	description = "Do you want to wait for DHCP?"
+variable "hosts" {
+  default = [
+    "v4.turbostack.io"
+  ]
 }
-variable "photon_user" {
-	type = "string"
-	description = "User to attach to the PhotonOS guest"
-}
-variable "photon_password" {
-	type = "string"
-	description = "Password for the PhotonOS accounmt"
-}
-
 

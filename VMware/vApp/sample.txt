@@ -6,16 +6,9 @@ provisioner "remote-exec" {
 
 provisioner "remote-exec" {
     inline = [
-      "puppet apply",
       "touch /disco.txt",
       "echo 'DiscoPosse was Terraforming here' > /disco.txt"
     ]
-    connection {
-        type = "ssh"
-        host = "terraform-test${count.index}"
-        user = "${var.photon_user}"
-        password = "${var.photon_password}"
-    }
   }
 
 provisioner "file" {
