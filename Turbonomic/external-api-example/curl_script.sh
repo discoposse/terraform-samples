@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s -X POST "https://apiuser:Turbonomic1@expo5.demo.turbonomic.com/api/v2/reservations?apiCallBlock=false" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"demandName\":\"1567627563091_apiuser\",\"action\":\"PLACEMENT\",\"parameters\":[{\"placementParameters\":{\"count\":1,\"templateID\":\"T-ae876334ffeed3950f51f67288b2b100\",\"constraintIDs\":[\"d4efa6855bf2807c4d7b4deddf6ed1065e6819c7\"]}}]}" | jq 

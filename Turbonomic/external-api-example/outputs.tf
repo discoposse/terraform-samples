@@ -1,3 +1,3 @@
-output "turbonomic_response" {
-	value = "GO"
+output "api_result" {
+	value = jsondecode(data.external.api_request.result)
 }

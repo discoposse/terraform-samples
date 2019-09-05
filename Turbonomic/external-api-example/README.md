@@ -18,3 +18,5 @@ Your Turbonomic REST endpoint is your Turbonomic URL and the trailing /api/v2 (e
 
 This use of external source by Terraform is generally unsupported in preference of building a first class plugin.  Turbonomic integration with Terraform Enterprise is underway which will invalidate this example method. 
 
+Terraform External Data Source docs here:  https://www.terraform.io/docs/providers/external/data_source.html 
+
