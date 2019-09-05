@@ -9,7 +9,7 @@
 ## Environment Variables
 
 To avoid being prompted you must add the following environment variables:
-- TF_VAR_turbonmic_user
+- TF_VAR_turbonomic_user
 - TF_VAR_turbonomic_password
 - TF_VAR_turbonomic_rest_endpoint 
 
