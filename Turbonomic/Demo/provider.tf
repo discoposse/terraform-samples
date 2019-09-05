@@ -1,6 +1,6 @@
 provider "restapi" {
   uri                  = "${var.turbonomic_rest_endpoint}"
-  debug                = true
+  debug                = false
   write_returns_object = true
   insecure			   = true
   username			   = "${var.turbonomic_user}"
